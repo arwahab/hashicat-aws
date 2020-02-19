@@ -65,8 +65,6 @@ resource aws_vpc "hashicat" {
 # resource aws_eip "hashicat" {
 #   instance = aws_instance.hashicat.id
 #   vpc      = true
-#   billable = true
-#   department = devops
 # }
 
 # resource aws_internet_gateway "hashicat" {
