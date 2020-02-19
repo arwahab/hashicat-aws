@@ -1,6 +1,6 @@
   
 module "vpc" {
-  source  = "app.terraform.io/arwahab/vpc/aws"
+  source = "terraform-aws-modules/vpc/aws"
   version = "2.21.0"
 
   name = "my-vpc"
